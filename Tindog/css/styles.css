@@ -5,11 +5,12 @@ body{
 }
 #title{
     background-color: #ff4c68;
+    max-height: 800px;
+    padding-bottom: 50px;
 }
  #title .container-fluid{
     padding-left: 15%;
     padding-right: 15%;
-  
     padding-top: 5%;
 }
 h1{
@@ -24,12 +25,12 @@ h2{
     font-family:'Montserrat', sans-serif ;
     font-size: 6rem;
     line-height: 1.5;
-    padding: 5%;
+    padding: 2%;
     padding-bottom: 0;
 }
 .feature-box i{
     font-size: 100px;
-    color:#ef8172 ;
+    color:#ff4c68 ;
     padding: 5%;
 }
 .feature-box h3{
@@ -69,13 +70,20 @@ h2{
 }
 /* Title Image */
 .title-image{
-    width: 60%;
+    width: 70%;
     transform: rotate(30deg);
+    top: 200px;
+  
+    z-index: 1;
+    position: relative;
 }
 
 /* Features Sections  */
 #features{
     padding: 7% 15%;
+    background-color: white;
+    z-index: 2;
+    position: relative;
 }
 .feature-box{
     text-align: center;
@@ -86,31 +94,54 @@ h2{
 }
 
 /* Testemonials */
-#testimonials{
+#testimonials-carousel{
     padding: 7% 15%;
     text-align: center;
-    background-color: #ef8172;
+    background-color:#ff4c68;
     color: white;
 }
 .testimonial-image{
     width: 10%;
     border-radius: 200%;
     margin: 20px;
+    text-align: center;
 }
 #press{
-    background-color: #ef8172;
+    background-color: #ff4c68;
     text-align: center;
 }   
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px;
 }
+.carousel-item{
+    padding: 15%;
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+    text-align: center;
+}
 
 
+/* Call to Action */
+#cta{
+    text-align: center;
+}
 
-
-
-
+/*Footer*/
+#footer{
+    text-align: center;
+}
 
 
 
